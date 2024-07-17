@@ -6,7 +6,7 @@
 - 本项目仅供学习交流使用，请勿用于商业用途。
 - 请遵守相关法律法规，下载资源请遵守相关版权法律。
 - 如因下载资源侵犯了第三方权益，请及时联系本人于 1491328056@qq.com，本人将第一时间删除相关资源。
-- 提供源代码以及[pyinstaller](https://github.com/pyinstaller/pyinstaller)打包后的[windows](https://support.microsoft.com/zh-cn/meetwindows11)下可执行文件。
+- 提供源代码。
 - 本人为15岁在校学生(截止至2024年)，水平有限，如有错误，还请指正。
 - 本项目遵循[GPL v3](https://www.gnu.org/licenses/gpl-3.0.en.html)开源协议。
 
@@ -18,13 +18,9 @@
 ```python
 python main.py <cookies> <save_folder>
 ```
-or 
-```  
-dyy.exe <cookies> <save_folder>
-```
 示例
 ```
-python main.py/dyy.exe "OUTFOX_SEARCH_USER_ID_NCOO=...; OUTFOX_SEARCH_USER_ID=...; DICT_SESS=...; DICT_LOGIN=..."  E:\downloads
+python main.py "OUTFOX_SEARCH_USER_ID_NCOO=...; OUTFOX_SEARCH_USER_ID=...; DICT_SESS=...; DICT_LOGIN=..."  E:\downloads
 ```
 
 - 其中，`<cookies>` 是登录某道云盘后获得的 cookies，`<save_folder>` 是保存下载资源的路径。上文为示例cookies，请自行替换。
