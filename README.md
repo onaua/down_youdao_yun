@@ -16,7 +16,7 @@
 - 先登录某道云盘，打开开发者工具，获得类似于 `"OUTFOX_SEARCH_USER_ID_NCOO=...; OUTFOX_SEARCH_USER_ID=...; DICT_SESS=...; DICT_LOGIN=..."`的cookies。
 - 然后启动此项目，用法如下。
 ```python
-python download.py <cookies> <save_folder>
+python main.py <cookies> <save_folder>
 ```
 or 
 ```  
@@ -24,7 +24,7 @@ dyy.exe <cookies> <save_folder>
 ```
 示例
 ```
-python download.py/dyy.exe "OUTFOX_SEARCH_USER_ID_NCOO=...; OUTFOX_SEARCH_USER_ID=...; DICT_SESS=...; DICT_LOGIN=..."  E:\downloads
+python main.py/dyy.exe "OUTFOX_SEARCH_USER_ID_NCOO=...; OUTFOX_SEARCH_USER_ID=...; DICT_SESS=...; DICT_LOGIN=..."  E:\downloads
 ```
 
 - 其中，`<cookies>` 是登录某道云盘后获得的 cookies，`<save_folder>` 是保存下载资源的路径。上文为示例cookies，请自行替换。
